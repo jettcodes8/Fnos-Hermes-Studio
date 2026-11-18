@@ -21,7 +21,7 @@ name: Auto-update upstream versions
 on:
   schedule:
     # 每天 UTC 01:17 / 09:17 / 17:17 检查上游（避开整点，降低 GitHub 限流概率）
-    - cron: '17 1,9,17 * * *'
+    - cron: '20 0,6,12,18 * * *'
   workflow_dispatch:
 
 permissions:
